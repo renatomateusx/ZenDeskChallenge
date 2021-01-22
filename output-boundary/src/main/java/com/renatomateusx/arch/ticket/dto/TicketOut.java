@@ -1,15 +1,16 @@
 package com.renatomateusx.arch.ticket.dto;
+
 import java.util.UUID;
 
-public class TicketIn {
-
-    private UUID id;
-    private String name;
-    private String email;
-    private String subject;
-    private String message;
-    private String status;
-
+public class TicketOut {
+    public TicketOut(UUID id, String name, String email, String subject, String message, String status){
+        this.id = id;
+        this.name = name;
+        this.email = email;
+        this.subject = subject;
+        this.message = message;
+        this.status = status;
+    }
 
     public UUID getId() {
         return id;
@@ -51,6 +52,7 @@ public class TicketIn {
         this.message = message;
     }
 
+
     public String getStatus() {
         return status;
     }
@@ -59,18 +61,15 @@ public class TicketIn {
         this.status = status;
     }
 
+    private UUID id;
+    private String name;
+    private String email;
+    private String subject;
+    private String message;
 
-    public TicketIn(UUID id, String name, String email, String subject, String message, String status){
-        this.id = id;
-        this.name = name;
-        this.email = email;
-        this.subject = subject;
-        this.message = message;
-        this.status = status;
-    }
 
-    public TicketWebDTO toWebDTO(){
-        return new TicketWebDTO(this.id, this.name, this.status);
-    }
+    private String status;
+
+
 
 }

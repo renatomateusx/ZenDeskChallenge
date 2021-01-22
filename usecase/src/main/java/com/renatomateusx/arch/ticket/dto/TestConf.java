@@ -1,4 +1,4 @@
-package com.renatomateusx.arch.dto;
+package com.renatomateusx.arch.ticket.dto;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;

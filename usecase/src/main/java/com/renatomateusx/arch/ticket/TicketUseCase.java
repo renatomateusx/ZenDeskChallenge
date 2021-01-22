@@ -1,9 +1,8 @@
-package com.renatomateusx.arch;
+package com.renatomateusx.arch.ticket;
 
-import com.renatomateusx.arch.User.ITicketOut;
-import com.renatomateusx.arch.ports.TicketAdapter;
-import com.renatomateusx.arch.ticket.ITicket;
-import com.renatomateusx.arch.ticket.dto.TicketIn;
+import com.renatomateusx.arch.ticket.ports.TicketAdapter;
+import com.renatomateusx.arch.ticket.ticket.ITicket;
+import com.renatomateusx.arch.ticket.ticket.dto.TicketIn;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;

@@ -1,14 +1,11 @@
-package com.renatomateusx.arch.ports;
+package com.renatomateusx.arch.ticket.ports;
 
-import com.renatomateusx.arch.User.dto.TicketOut;
-import com.renatomateusx.arch.ticket.dto.TicketIn;
+import com.renatomateusx.arch.ticket.dto.TicketOut;
+import com.renatomateusx.arch.ticket.ticket.dto.TicketIn;
 import org.springframework.boot.context.properties.ConstructorBinding;
 import org.springframework.stereotype.Component;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
-import java.util.Objects;
 import java.util.stream.Collectors;
 
 

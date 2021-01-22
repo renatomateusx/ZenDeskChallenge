@@ -1,6 +1,6 @@
-package com.renatomateusx.arch.User;
+package com.renatomateusx.arch.ticket;
 
-import com.renatomateusx.arch.User.dto.TicketOut;
+import com.renatomateusx.arch.ticket.dto.TicketOut;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.stereotype.Component;
 

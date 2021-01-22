@@ -1,4 +1,4 @@
-package com.renatomateusx.arch.swagger;
+package com.renatomateusx.arch.ticket.swagger;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

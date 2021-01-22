@@ -1,8 +1,8 @@
-package com.renatomateusx.arch;
+package com.renatomateusx.arch.ticket;
 
-import com.renatomateusx.arch.ticket.ITicket;
-import com.renatomateusx.arch.ticket.dto.TicketIn;
-import com.renatomateusx.arch.ticket.dto.TicketRequestWebDTO;
+import com.renatomateusx.arch.ticket.ticket.ITicket;
+import com.renatomateusx.arch.ticket.ticket.dto.TicketIn;
+import com.renatomateusx.arch.ticket.ticket.dto.TicketRequestWebDTO;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;

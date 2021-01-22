@@ -1,4 +1,4 @@
-package com.renatomateusx.arch;
+package com.renatomateusx.arch.ticket;
 
 
 import org.springframework.boot.SpringApplication;

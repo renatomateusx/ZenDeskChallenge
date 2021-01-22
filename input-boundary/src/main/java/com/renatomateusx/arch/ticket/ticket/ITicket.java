@@ -1,6 +1,6 @@
-package com.renatomateusx.arch.ticket;
+package com.renatomateusx.arch.ticket.ticket;
 
-import com.renatomateusx.arch.ticket.dto.TicketIn;
+import com.renatomateusx.arch.ticket.ticket.dto.TicketIn;
 
 import java.util.List;
 

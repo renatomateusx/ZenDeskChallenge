@@ -1,7 +1,7 @@
 package com.renatomateusx.arch.Ticket;
 
-import com.renatomateusx.arch.User.ITicketOut;
-import com.renatomateusx.arch.User.dto.TicketOut;
+import com.renatomateusx.arch.ticket.ITicketOut;
+import com.renatomateusx.arch.ticket.dto.TicketOut;
 import org.apache.commons.codec.binary.Base64;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -15,8 +15,6 @@ import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
 import org.springframework.web.client.RestTemplate;
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
 import java.util.List;
 
 @Service

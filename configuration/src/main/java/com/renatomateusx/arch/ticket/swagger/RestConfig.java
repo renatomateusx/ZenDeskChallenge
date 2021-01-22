@@ -1,4 +1,4 @@
-package com.renatomateusx.arch.swagger;
+package com.renatomateusx.arch.ticket.swagger;
 
 import java.time.Duration;
 import org.springframework.boot.web.client.RestTemplateBuilder;

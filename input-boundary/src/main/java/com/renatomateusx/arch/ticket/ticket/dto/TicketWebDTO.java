@@ -1,4 +1,4 @@
-package com.renatomateusx.arch.ticket.dto;
+package com.renatomateusx.arch.ticket.ticket.dto;
 
 import java.util.UUID;
 

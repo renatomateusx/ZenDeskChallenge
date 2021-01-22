@@ -1,9 +1,8 @@
-package com.renatomateusx.arch;
+package com.renatomateusx.arch.ticket;
 
-import com.renatomateusx.arch.User.ITicketOut;
-import com.renatomateusx.arch.User.dto.TicketOut;
-import com.renatomateusx.arch.ports.TicketAdapter;
-import com.renatomateusx.arch.ticket.dto.TicketIn;
+import com.renatomateusx.arch.ticket.dto.TicketOut;
+import com.renatomateusx.arch.ticket.ports.TicketAdapter;
+import com.renatomateusx.arch.ticket.ticket.dto.TicketIn;
 import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
 import org.junit.runner.RunWith;
